@@ -365,7 +365,7 @@ private enum class HomeSections(
 private fun JsetsnackBottomNavPreview() {
     JetsnackTheme {
         JetsnackBottomNav(
-            currentSection = HomeSections.Feed,
+            currentSection = HomeSections.Cart,
             onSectionSelected = { },
             items = HomeSections.values().toList()
         )
